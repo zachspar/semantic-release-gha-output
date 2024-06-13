@@ -1,0 +1,35 @@
+{
+  "name": "semantic-release-gha-output",
+  "author": {
+    "name": "Zachary Spar",
+    "email": "zachspar@gmail.com"
+  },
+  "version": "0.0.0-development",
+  "type": "module",
+  "homepage": "https://github.com/zachspar/semantic-release-gha-output",
+  "repository": "git@github.com:zachspar/semantic-release-gha-output.git",
+  "bugs": "https://github.com/zachspar/semantic-release-gha-output/issues",
+  "readme": "README.md",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "1.10.1"
+  },
+  "description": "A semantic-release plugin to output values from a GitHub Action.",
+  "main": "index.js",
+  "peerDependencies": {
+    "semantic-release": ">=17"
+  },
+  "devDependencies": {
+    "semantic-release": ">=17",
+    "semantic-release-gha-output": "."
+  },
+  "release": {
+    "repositoryUrl": "https://github.com/zachspar/semantic-release-gha-output.git",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
+  }
+}
