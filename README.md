@@ -22,7 +22,7 @@ $ npm install semantic-release-gha-output
 | ------------------ | -------------------------------------------------------------------------------------------- |
 | `tag`              | Next release git tag.                                                                        |
 | `version`          | Next release version.                                                                        |
-| `published`        | Boolean to indicate whether a new release was published.                                     |
+| `published`        | Boolean string to indicate whether a new release was published.                              |
 
 
 ## Usage
