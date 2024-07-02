@@ -6,9 +6,9 @@ A semantic-release plugin to output values from a GitHub Action.
 
 | Step               | Description                                                                                  |
 | ------------------ | -------------------------------------------------------------------------------------------- |
-| `verifyConditions` | Sets GitHub Action output variables `published` to false                                     |
+| `verifyConditions` | Sets GitHub Action output variable `published` to false                                     |
 | `verifyRelease`    | Sets GitHub Action output variables `tag` & `version`                                        |
-| `success`          | Sets GitHub Action output variables `published` to true                                      |
+| `success`          | Sets GitHub Action output variable `published` to true                                      |
 
 ## Install
 
