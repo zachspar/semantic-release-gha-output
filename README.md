@@ -6,7 +6,9 @@ A semantic-release plugin to output values from a GitHub Action.
 
 | Step               | Description                                                                                  |
 | ------------------ | -------------------------------------------------------------------------------------------- |
-| `verifyRelease`    | Sets GitHub Action output variables.                                                         |
+| `verifyConditions` | Sets GitHub Action output variable `published` to false                                     |
+| `verifyRelease`    | Sets GitHub Action output variables `tag` & `version`                                        |
+| `success`          | Sets GitHub Action output variable `published` to true                                      |
 
 ## Install
 
@@ -20,6 +22,7 @@ $ npm install semantic-release-gha-output
 | ------------------ | -------------------------------------------------------------------------------------------- |
 | `tag`              | Next release git tag.                                                                        |
 | `version`          | Next release version.                                                                        |
+| `published`        | Boolean string to indicate whether a new release was published.                              |
 
 
 ## Usage
