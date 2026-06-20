@@ -7,7 +7,7 @@
   "version": "0.0.0-development",
   "type": "module",
   "homepage": "https://github.com/zachspar/semantic-release-gha-output",
-  "repository": "git@github.com:zachspar/semantic-release-gha-output.git",
+  "repository": "git+https://github.com/zachspar/semantic-release-gha-output.git",
   "bugs": "https://github.com/zachspar/semantic-release-gha-output/issues",
   "readme": "README.md",
   "license": "MIT",
